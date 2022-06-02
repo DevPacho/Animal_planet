@@ -37,42 +37,55 @@ class Animals:
     """Methods"""
     def move(self, move):
         print("This is my move:", move)
+
     def show(self, show):
         print("I'm showing my:", show)
+
     def sound(self, sound):
         print("I make this sound:", sound)
 
+
 """Class for aquatic animals"""
+
 
 class Aquatics(Animals):
     def __init__(self, name, species, age):
         super().__init__(name, species, age)
 
+
 """Class for terrestrial animals"""
+
 
 class Terrestrial(Animals):
     def __init__(self, name, species, age):
         super().__init__(name, species, age)
 
+
 """Aquatic"""
+
 
 class Crab(Aquatics):
     def __init__(self, name, species, age):
         super().__init__(name, species, age)
 
+
 class Whale(Aquatics):
     def __init__(self, name, species, age):
         super().__init__(name, species, age)
 
+
 """Terrestrial"""
+
 
 class Cat(Terrestrial):
     def __init__(self, name, species, age):
         super().__init__(name, species, age)
 
+
 class Dog(Terrestrial):
     def __init__(self, name, species, age):
         super().__init__(name, species, age)
+
 
 """Objects"""
 
